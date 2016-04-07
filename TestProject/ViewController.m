@@ -105,6 +105,7 @@
 //    [threadA start];
 //    [threadB start];
     
+    
     //银行取钱
     _account = [[Account alloc] initWithAccountNo:@"12306" balance:1000.0];
     UIButton *btn1 = [[UIButton alloc] initWithFrame:CGRectMake(100, 180, 80, 30)];
