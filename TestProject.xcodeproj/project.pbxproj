@@ -19,6 +19,8 @@
 		3AA12FA31C6B70C800CBE964 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA12FA21C6B70C800CBE964 /* Person.m */; };
 		3ADB0F201C5E6979001A49CC /* 6(T%HBCN}0WOIQ(L`I8YU6B.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3ADB0F1F1C5E6979001A49CC /* 6(T%HBCN}0WOIQ(L`I8YU6B.jpg */; };
 		3AECFB6E1C64FB4600E6B56D /* DownloadImgOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AECFB6D1C64FB4600E6B56D /* DownloadImgOperation.m */; };
+		C1195F12207A0A9800C66D0A /* user_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1195F11207A0A9800C66D0A /* user_black@2x.png */; };
+		C1195F14207A0C6300C66D0A /* time@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1195F13207A0C6300C66D0A /* time@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		3ADB0F1F1C5E6979001A49CC /* 6(T%HBCN}0WOIQ(L`I8YU6B.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6(T%HBCN}0WOIQ(L`I8YU6B.jpg"; sourceTree = "<group>"; };
 		3AECFB6C1C64FB4600E6B56D /* DownloadImgOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadImgOperation.h; sourceTree = "<group>"; };
 		3AECFB6D1C64FB4600E6B56D /* DownloadImgOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadImgOperation.m; sourceTree = "<group>"; };
+		C1195F11207A0A9800C66D0A /* user_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_black@2x.png"; sourceTree = "<group>"; };
+		C1195F13207A0C6300C66D0A /* time@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "time@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				3AA12FA21C6B70C800CBE964 /* Person.m */,
 				3AECFB6C1C64FB4600E6B56D /* DownloadImgOperation.h */,
 				3AECFB6D1C64FB4600E6B56D /* DownloadImgOperation.m */,
+				C1195F11207A0A9800C66D0A /* user_black@2x.png */,
+				C1195F13207A0C6300C66D0A /* time@2x.png */,
 				188185031C415B9F00C6D26F /* 1_phunxm.jpg */,
 				3ADB0F1F1C5E6979001A49CC /* 6(T%HBCN}0WOIQ(L`I8YU6B.jpg */,
 				186BE6391A7F23E200E016C9 /* Main.storyboard */,
@@ -221,9 +227,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ADB0F201C5E6979001A49CC /* 6(T%HBCN}0WOIQ(L`I8YU6B.jpg in Resources */,
+				C1195F12207A0A9800C66D0A /* user_black@2x.png in Resources */,
 				186BE63B1A7F23E200E016C9 /* Main.storyboard in Resources */,
 				186BE6401A7F23E200E016C9 /* LaunchScreen.xib in Resources */,
 				186BE63D1A7F23E200E016C9 /* Images.xcassets in Resources */,
+				C1195F14207A0C6300C66D0A /* time@2x.png in Resources */,
 				188185041C415B9F00C6D26F /* 1_phunxm.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -49,6 +49,17 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 300, 100, 50)];
+    [btn setImage:[UIImage imageNamed:@"user_black@2x"] forState:UIControlStateNormal];
+    [btn setTitle:@"" forState:UIControlStateNormal];
+    [btn setImage:[UIImage imageNamed:@"time"] forState:UIControlStateSelected];
+    [btn setTitle:@"fuck" forState:UIControlStateSelected];
+    [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor blackColor] forState:UIControlStateSelected];
+    [btn addTarget:self action:@selector(btnAct:) forControlEvents:UIControlEventTouchUpInside];
+    btn.backgroundColor = [UIColor magentaColor];
+    [self.view addSubview:btn];
+    
     Person *person = [[Person alloc] init];
     [person setValue:@"小明" forKey:@"name"];
     NSLog(@"person->_name:%@  person->name:%@",person->_name,person->name);
@@ -136,6 +147,14 @@
     
     _imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height-100, self.view.frame.size.width, 100)];
     [self.view addSubview:_imageView];
+}
+
+- (void)btnAct:(UIButton *)btn{
+    btn.selected = !btn.selected;
+    
+    if (btn.selected) {
+        [btn setImage:[UIImage imageNamed:@""] forState:UIControlStateSelected];
+    }
 }
 
 - (void)operationSubClassTest{
