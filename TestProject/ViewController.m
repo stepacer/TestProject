@@ -49,6 +49,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 
+
     UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 300, 100, 50)];
     [btn setImage:[UIImage imageNamed:@"user_black@2x"] forState:UIControlStateNormal];
     [btn setTitle:@"" forState:UIControlStateNormal];
